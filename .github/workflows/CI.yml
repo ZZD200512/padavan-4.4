@@ -25,9 +25,9 @@ jobs:
         DEBIAN_FRONTEND: noninteractive
       run: |
         sudo apt-get upgrade
-        sudo apt-get install -y python-docutils
         sudo apt-get install -y python2-docutils
         sudo apt-get install -y python3-docutils
+        sudo apt install libtool-bin gperf python3-docutils autopoint gettext zip
         sudo apt install unzip libtool-bin curl cmake gperf gawk flex bison nano xxd \fakeroot kmod cpio git python3-docutils gettext automake autopoint \ texinfo build-essential help2man pkg-config zlib1g-dev libgmp3-dev \libmpc-dev libmpfr-dev libncurses5-dev libltdl-dev wget libc-dev-bin
         cpio git python-docutils gettext automake autopoint texinfo build-essential help2man \
         pkg-config zlib1g-dev libgmp3-dev libmpc-dev libmpfr-dev libncurses5-dev libltdl-dev wget
